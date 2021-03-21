@@ -19,10 +19,11 @@ excute_file5="SMP-RunIIAutumn18NanoAODv7-00058_1_cfg.py"
 wget --no-check-certificate --progress=bar "http://stash.osgconnect.net/+jiexiao/wzpol/$excute_file5"
 sandbox_name1="CMSSW_10_2_6.tgz"
 cmssw_version1="CMSSW_10_2_6"
-sandbox_name2="CMSSW_10_2_22.tgz"
-cmssw_version2="CMSSW_10_2_22"
+sandbox_name2="CMSSW_10_6_20.tgz"
+cmssw_version2="CMSSW_10_6_20"
 wget --no-check-certificate --progress=bar "http://stash.osgconnect.net/+jiexiao/wzpol/$sandbox_name1"
-wget --no-check-certificate --progress=bar "http://stash.osgconnect.net/+jiexiao/wzpol/$sandbox_name2"
+wget --no-check-certificate --progress=bar "http://stash.osgconnect.net/+jiexiao/HeavyN/$sandbox_name2"
+#wget --no-check-certificate --progress=bar "http://stash.osgconnect.net/+jiexiao/wzpol/CMSSW_10_2_22.tgz"
 
 # set environment
 source /cvmfs/cms.cern.ch/cmsset_default.sh
